@@ -3,7 +3,6 @@ SVGD is a general purpose variational inference algorithm that forms a natural c
 
 The package contains implementation of SVGD in both Matlab and Python language. Demos are also provided to reproduce the results in our paper. The Bayesian neural network example is based on Theano.
 
-For more information, please visit our project website - [SVGD](http://www.cs.utexas.edu/~qlearning/project.html?p=vgd).
 
 <!--
 ## A tensorflow-based implmentation and more examples & models: [tf-svgd](https://github.com/dilinwang820/SVGD)
@@ -28,7 +27,3 @@ theta = SVGD().update(x0, dlnprob, n_iter, stepsize)
 ## Citation
 Qiang Liu and Dilin Wang. [Stein Variational Gradient Descent (SVGD): A General Purpose Bayesian Inference Algorithm](http://arxiv.org/abs/1608.04471). NIPS, 2016.
 
-## Feedback
-Feedback is greatly appreciated. If you have any questions, comments, issues or anything else really, [shoot me an email](mailto:dilin@cs.utexas.edu).
-
-All rights reserved.
